@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "awesome_flags"
   gem.homepage = "http://github.com/gabekessler/awesome_flags"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Extends FlagShihTzu functionality"
+  gem.description = "Outputs keys used in the FlagShihTzu setup. Can be filtered by column for models with multiple flag columns."
   gem.email = "gabe@gabesstudio.com"
   gem.authors = ["Gabe Kessler"]
   # dependencies defined in Gemfile
