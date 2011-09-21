@@ -1,4 +1,5 @@
 = awesome_flags
+gem 'awesome_flags'
 
 AwesomeFlags returns the keys used in a FlagShihTzu column as symbols.
 
