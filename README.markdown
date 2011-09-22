@@ -7,9 +7,11 @@ AwesomeFlags returns the keys used in a FlagShihTzu column as symbols.
 Just require AwesomeFlags in your model. Don't forget to install the FlagShihTzu plugin and add that as well.
 
 To call all flags for a model use the method
+    
     my_flags
 
 To call just the flags from a specific column use:
+    
     my_flags("column_name")
 
 Using the all_flags method will return all flags (filtered by column or not as above).
