@@ -8,7 +8,7 @@ module AwesomeFlags
       b = a[column]
       c = Array.[](b.keys).flatten
     end
-    map
+    c.map
   end
   
   def my_flags(column = nil)
@@ -19,7 +19,7 @@ module AwesomeFlags
       b = a[column]
       c = Array.[](b.keys).flatten
     end
-    map {|var| self.send(var) ? var : nil}.compact!
+    c.map {|var| self.send(var) ? var : nil}.compact!
   end
   
 end
