@@ -1,12 +1,12 @@
 module AwesomeFlags
     
   def all_flags(column = nil)
-    get_flags
+    get_flags(column)
     c.map
   end
   
   def my_flags(column = nil)
-    get_flags
+    get_flags(column)
     c.map {|var| self.send(var) ? var : nil}.compact!
   end
   
