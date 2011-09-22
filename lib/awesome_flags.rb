@@ -11,7 +11,7 @@ module AwesomeFlags
   end
   
   def get_flags(column)
-     = self.flag_mapping
+    a = self.flag_mapping
     if column.nil?
       c = a.values.map {|var| var.keys}.flatten
     else
