@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "awesome_flags-1.0.0.gem",
+    "awesome_flags-2.0.0.gem",
     "awesome_flags.gemspec",
     "lib/awesome_flags.rb",
     "test/helper.rb",
