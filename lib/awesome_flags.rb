@@ -20,4 +20,13 @@ module AwesomeFlags
     end
   end
   
+  def get_hash_of_flags(column = nil)
+    a = self.flag_mapping
+    if column.nil?
+      c = Hash[*d.collect{|hash| hash.collect{|key,value| [key,value].flatten}.flatten}.flatten]
+    else
+      c = a[column].to_hash
+    end
+  end
+  
 end
