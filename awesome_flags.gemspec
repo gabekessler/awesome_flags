@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "awesome_flags"
-  s.version = "1.7.0"
+  s.name = %q{awesome_flags}
+  s.version = "2.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gabe Kessler"]
-  s.date = "2011-09-23"
-  s.description = "Outputs keys used in the FlagShihTzu setup. Can be filtered by column for models with multiple flag columns."
-  s.email = "gabe@gabesstudio.com"
+  s.date = %q{2011-09-26}
+  s.description = %q{Outputs keys used in the FlagShihTzu setup. Can be filtered by column for models with multiple flag columns.}
+  s.email = %q{gabe@gabesstudio.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
@@ -24,16 +24,17 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "awesome_flags-1.0.0.gem",
     "awesome_flags.gemspec",
     "lib/awesome_flags.rb",
     "test/helper.rb",
     "test/test_awesome_flags.rb"
   ]
-  s.homepage = "http://github.com/gabekessler/awesome_flags"
+  s.homepage = %q{http://github.com/gabekessler/awesome_flags}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
-  s.summary = "Extends FlagShihTzu functionality"
+  s.rubygems_version = %q{1.5.3}
+  s.summary = %q{Extends FlagShihTzu functionality}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
