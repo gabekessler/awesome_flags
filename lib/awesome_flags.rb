@@ -7,7 +7,7 @@ module AwesomeFlags
   
   def my_flags(column = nil)
     c = get_array_of_flags(column)
-    c.map {|var| self.send(var) ? var : nil}.compact!
+    c.map {|var| self.send(var) ? var : nil}.compact
   end
   
   def get_array_of_flags(column)

@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "awesome_flags"
-  s.version = "2.2.0"
+  s.version = "2.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gabe Kessler"]
-  s.date = "2011-09-27"
+  s.date = "2011-10-20"
   s.description = "Outputs keys used in the FlagShihTzu setup. Can be filtered by column for models with multiple flag columns."
   s.email = "gabe@gabesstudio.com"
   s.extra_rdoc_files = [
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/gabekessler/awesome_flags"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "1.8.11"
   s.summary = "Extends FlagShihTzu functionality"
 
   if s.respond_to? :specification_version then
